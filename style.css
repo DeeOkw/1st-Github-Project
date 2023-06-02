@@ -68,12 +68,20 @@ li{
     align-items: center;
     justify-content: center;
 }
+
+
+#About,
+#Discord,
+#Contact {
+    padding: 48px 0;
+}
+
 /*
 ABOUT
 */
 
-#about{
-    padding: 48px 0;
+#About {
+    background-color: #f8ffdc;
 }
 
 h2 {
@@ -86,4 +94,45 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.About__img--wrapper{
+    width: 40%;
+}
+img {
+    width: 100%;
+}
+
+.section__desription--wrapper {
+    width: 60%;
+}
+
+.About__img--wrapper,
+.section__desription--wrapper{
+padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*
+DISCORD
+*/
+
+#Discord {
+    background-color: #cefeff;
+}
+
+/*
+CONTACT
+*/
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%
 }
